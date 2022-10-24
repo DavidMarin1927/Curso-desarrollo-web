@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    color: darkviolet;
+    font-family:  impact;
+    font-size:  300%;
+}
+h2 {
+    border: 2px solid black;
+
+    /* Los valores de borde se dividen en
+    2px se define el grosor del borde solid
+     define la textura del borde, back el color */
+
+     padding-left:  38px;
+     margin-left: 20px;
+}

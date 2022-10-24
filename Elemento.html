@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos avanzados HTML</title>
+    <link rel="stylesheet" href="General.CSS">
+
+    <style>
+        /* se selecionan las a que estan dentro de un div */
+        div {
+            /* Borde 1px solid black */
+            display:flex;
+            justify-content: center;
+            /* Ejemplo de como centrar al boton  */
+        }
+        div a {
+            text-decoration: none;
+            background-color: rgb(80, 80, 80);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        h1 {
+            border: 3px solid black;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h1>Elementos avanzdos del HTML</h1>
+
+    <h2>Links o hiperviculos</h2>
+    <p>
+        Los links se encuentras en todo tipo de paginas. permiten
+        al usuario navegar por los documentos de la web.
+    </p>
+    <p>
+        cuando clicas en un link te mueve a otro documento o a 
+        una parte concreta del mismo.
+    </p>
+    <p>
+        cuando pasa el cursor sobre el link, este se torna en una
+        mano.
+    </p>
+    <p>
+        Un link se define mediante el elemento <code>&lt;a &lt;</code>
+    </p>
+    <p>
+        La sintaxis de un link, por norma general, es: <br>
+        <code>
+            &lt;a href="url"&lcy;Texto del link &lt;/a&lt;
+        </code>
+    </p>
+    <p>
+        El atributo mas importante de un link es el "href" ya que es
+        este el que indica el punto al que nos llevara el link.
+
+    </p>
+
+    <p>
+        Ejemplos :
+    </p>
+    <a href="https://www.google.com" target="_blank"> link a google</a> <br>
+    <a href="css-basico.html"> Link de teoria al CSS</a>
+
+    <p>
+        Los links tienen 3 estados:
+        <ul>
+            <li>Son azules cuando no han sido visitados</li>
+            <li>Morados cuando ya han sido clicados</li>
+            <li>y rojos cuando estan ativos.</li>
+        </ul>
+    </p>
+
+    <p>
+        Lon links se pueden modificar mendiante css para que tengan
+        un aspecto completamente distinto.
+    </p>
+
+    <div>
+        <a href="a">Esto es un link</a>
+    </div>
+
+    <h3>Usar una imagen como link</h3>
+
+    <a target="_blank"
+     href="https://es.dragon-ball-official.com/">
+        <img width="20%"
+        src="https://yt3.ggpht.com/a/AATXAJzydwHBT-iHk_Dih6-D3v_T1ZtkZws9pT6UXg=s900-c-k-c0xffffffff-no-rj-mo" alt="">
+    </a>
+
+    <a target="_blank"
+    href="https://es.dragon-ball-official.com/">
+    <img width="20%"
+    src="https://th.bing.com/th/id/OIP.-TzWnyOcU4ACYhAGltIcOwHaFv?pid=ImgDet&rs=1" alt="">
+    </a>
+
+    <a target="_blank"
+     href="https://www.busbud.com/es/san-mames/s/62000?msclkid=270f81d6ec0a1d438a3fe29941f4ea57&utm_source=bing&utm_medium=cpc&utm_campaign=spain-es-dsa&utm_term=%2Fes%2F%20%2Fs%2F&utm_content=website-catch-all">
+    <img width="20%"
+    src="https://th.bing.com/th/id/R.2d45fc481904f3a7a7ab3a70c7bae65e?rik=otkngh5bpwC5cg&riu=http%3a%2f%2fimageneschidas.mx%2fwp-content%2fuploads%2fim%c3%a1genes-de-autobuses-au-bien-chingonas.jpg&ehk=PQvioLTzNx%2bfftT0yF%2bWSyVrGEWMPhOfxdhmOSD6uaI%3d&risl=&pid=ImgRaw&r=0" alt="">
+    </a>
+
+    <a target="_blank"
+     href="https://www.getyourguide.es/-l1470/-tc135/?cmp=bing&campaign_id=377190749&adgroup_id=1243548211461953&target_id=dat-2329521542036161%3Aloc-170&match_type=b&ad_id=77721894651862&msclkid=ec6af9e1a3ed138d56839aae0da364a5&loc_physical_ms=3175&feed_item_id=&keyword=%2F-tc1%20www.getyourguide.es&partner_id=CD951&utm_medium=paid_search&utm_source=bing&utm_campaign=ct%3Ddsa%7Cln%3D109%3Aes%7Ctc%3Dall&utm_term=%2F-tc1%20www.getyourguide.es&gclid=ec6af9e1a3ed138d56839aae0da364a5&gclsrc=3p.ds&utm_content=ct%3Ddsa%7Cfn%3Df1%7Ccat%3D1%3Atour/">
+    <img width="20%"
+    src="https://th.bing.com/th/id/OIP.uKx4wUEGWSb7HjTakOBbQAHaE7?pid=ImgDet&rs=1" alt="">
+    </a>
+
+
+</body>
+</html>
